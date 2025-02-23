@@ -276,10 +276,6 @@ def create_interface(client: genai.Client, session_manager: ChatSessionManager) 
                     lambda: gr.update(value=""),
                     None,
                     [msg]
-                ).then(
-                    lambda: gr.update(value=None),
-                    None,
-                    [image_input]
                 )
                 load_btn.click(
                     lambda selected: session_manager.get_session(session_manager.titles.index(selected)) if selected is not None else [{"role": "assistant", "content": "👋 Hi there! What's your name? 😊"}],
