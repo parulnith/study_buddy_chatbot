@@ -212,7 +212,7 @@ def create_interface(client: genai.Client, session_manager: ChatSessionManager) 
                             q5 = gr.Button("Suggest a daily study routine for me.", elem_classes=["sample-questions"])
                             q6 = gr.Button("Explain the Concept of", elem_classes=["sample-questions"])
                         with gr.Row(elem_id="sample-questions"):
-                            q1 = gr.Button("Create a spelling challenge for me.", elem_classes=["sample-questions"])
+                            q1 = gr.Button("Give me some project ideas on.", elem_classes=["sample-questions"])
                             q2 = gr.Button("Test my knowledge of world geography.", elem_classes=["sample-questions"])
                             q3 = gr.Button("How can I improve my vocabulary?", elem_classes=["sample-questions"])
                     with gr.Column(scale=4):
@@ -288,7 +288,7 @@ def create_interface(client: genai.Client, session_manager: ChatSessionManager) 
                 q4.click(lambda: "Generate a quiz for me on", None, msg)
                 q5.click(lambda: "Suggest a daily study routine for me.", None, msg)
                 q6.click(lambda: "Explain the Concept of", None, msg)
-                q1.click(lambda: "Create a spelling challenge for me.", None, msg)
+                q1.click(lambda: "Give me some project ideas on.", None, msg)
                 q2.click(lambda: "Test my knowledge of world geography.", None, msg)
                 q3.click(lambda: "How can I improve my vocabulary?", None, msg)
         return demo
