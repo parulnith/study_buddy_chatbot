@@ -13,4 +13,6 @@ In India, **March** is synonymous with **exam season**, so I built a **Study Ass
 ✔ **Real-time Google Search** – Fetches current affairs & fact-checks instantly  
 ✔ **Kid-friendly** – Filters out distractions like **gaming & social media**  
 
+📢 **Check out the demo**: [Twitter Post](https://x.com/i/status/1894396963141087289)  
+
 Built for **focused learning**, this tool makes studying more **interactive and efficient**! 🚀  
