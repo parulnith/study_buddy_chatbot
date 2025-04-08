@@ -58,14 +58,16 @@ Inspired by the need for a focused learning tool during India's exam season (typ
     # conda activate studybuddy
     ```
 
-3.  **Install Dependencies:**
-    You can use `pip` with `pyproject.toml` or `uv` with the `uv.lock` file for exact reproducibility.
+3. **Install Dependencies:**
+    Make sure your virtual environment is activated. Choose one of the following methods:
 
-    *   **Using pip:**
+    *   **Using `pip` (installs required packages):**
         ```bash
-        pip install .
+        pip install google-genai gradio python-dotenv Pillow
         ```
-    *   **Using uv (recommended for lockfile):**
+        *(Note: This installs the dependencies listed in `pyproject.toml`)*
+
+    *   **Using `uv` (for exact versions from `uv.lock`):**
         ```bash
         # Install uv if you haven't already: pip install uv
         uv pip sync
@@ -81,8 +83,7 @@ Inspired by the need for a focused learning tool during India's exam season (typ
     ```dotenv
     GEMINI_API_KEY=<YOUR_API_KEY>
     ```
-    *A `.env.example` file could be included in the repo as a template.*
-
+   
 ## ▶️ Usage
 
 1.  **Run the Application:**
@@ -90,7 +91,7 @@ Inspired by the need for a focused learning tool during India's exam season (typ
     ```bash
     python app.py
     ```
-    *(Note: If your main script is named `a1.py`, use `python a1.py` instead)*
+   
 
 2.  **Access the Interface:** Open your web browser and navigate to the local URL provided by Gradio (usually `http://127.0.0.1:7860`).
 
@@ -107,7 +108,6 @@ Inspired by the need for a focused learning tool during India's exam season (typ
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for bugs, feature requests, or improvements.
 
-*(Add more specific contribution guidelines if desired)*
 
 ## 📄 License
 
