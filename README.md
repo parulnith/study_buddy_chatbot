@@ -43,15 +43,15 @@ Inspired by the need for a focused learning tool during India's exam season (typ
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/parulnith/study_buddy_chatbot
     cd study-buddy-chatbot
     ```
 
 2.  **Set up a Virtual Environment (Recommended):**
     ```bash
     # Using venv
-    python -m venv .venv
-    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 
     # Or using conda
     # conda create -n studybuddy python=3.13
