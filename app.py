@@ -204,7 +204,7 @@ def create_interface(client: genai.Client, session_manager: ChatSessionManager) 
                     # Left Column: Sample Questions + Clear Chat
                     with gr.Column(scale=3):
                         with gr.Row(elem_id="sample-questions", elem_classes=["sample-questions-row"]):
-                            q1 = gr.Button("reate a spelling challenge for me.", elem_classes=["sample-questions"])
+                            q1 = gr.Button("Create a spelling challenge for me.", elem_classes=["sample-questions"])
                             q2 = gr.Button("Test my knowledge of world geography.", elem_classes=["sample-questions"])
                             q3 = gr.Button("How can I improve my vocabulary", elem_classes=["sample-questions"])
                         with gr.Row(elem_id="sample-questions", elem_classes=["sample-questions-row"]):
