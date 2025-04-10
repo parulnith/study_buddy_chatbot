@@ -11,3 +11,6 @@ wheels/
 
 #Environment variable
 .env
+
+# Jupyter Notebook checkpoints
+.DS_Store

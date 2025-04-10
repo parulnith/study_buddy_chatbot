@@ -113,7 +113,3 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. *(Create a LICENSE file if you intend to use MIT or another license)*
 
-## 🙏 Acknowledgements
-
-*   **Gradio Team:** For creating an easy-to-use framework for building ML web apps.
-*   **Google:** For providing the powerful Gemini models.
