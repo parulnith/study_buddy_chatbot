@@ -121,8 +121,8 @@ This optional grounding feature makes Study Buddy a more robust and reliable lea
 
 1.  **Clone the Repository:**
     ```bash
-    # Replace with your actual repo URL if different
-    git clone [https://github.com/parulnith/study_buddy_chatbot.git](https://github.com/parulnith/study_buddy_chatbot.git)
+
+    git clone https://github.com/parulnith/study_buddy_chatbot.git
     cd study-buddy-chatbot
     ```
 
@@ -143,7 +143,7 @@ This optional grounding feature makes Study Buddy a more robust and reliable lea
     Ensure your virtual environment is activated. Choose one method:
     * *Using pip (recommended for standard install):*
         ```bash
-        pip install google-generativeai google-genai gradio python-dotenv Pillow
+        pip install google-genai gradio python-dotenv Pillow
         ```
         *(Optionally, create a `requirements.txt` file: `pip freeze > requirements.txt` and then use `pip install -r requirements.txt`)*
     * *Using uv (if you have `uv.lock` for exact versions):*
