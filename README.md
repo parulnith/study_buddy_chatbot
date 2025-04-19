@@ -1,4 +1,4 @@
-# 📚 Study Buddy Chatbot: Your Friendly AI Learning Companion, Powered by Google Gemini! 🤖
+# 📚 Study Buddy Chatbot: A Friendly AI Learning Companion for kids, Powered by Google Gemini! 🤖
 
 [![Python Version](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,6 +14,7 @@
 Study Buddy is an AI chatbot that I created for my Kid to assist him during the exams. It leverages the power of **Google's Gemini models** to provide clear, simple explanations, while strict content filters and a carefully crafted persona ensure conversations remain appropriate and focused solely on learning. The intuitive interface, built with Gradio, allows kids to easily interact, ask questions about text or images, and even keep study notes, all within a single application.
 
 📢 **See it in action!** [Check out the demo on Twitter](https://x.com/i/status/1894396963141087289)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In India, March is synonymous with exam season, and so I built a Study Assistant for my kid—thanks to <a href="https://twitter.com/Gradio?ref_src=twsrc%5Etfw">@Gradio</a> and Gemini 2.0 Flash.<br><br>Why Gradio?<br>• No complex UI coding! With just a few lines of Python, I could create an interactive chatbot that offers features like chat history,… <a href="https://t.co/PCvuikldwd">pic.twitter.com/PCvuikldwd</a></p>&mdash; Parul Pandey (@pandeyparul) <a href="https://twitter.com/pandeyparul/status/1894396963141087289?ref_src=twsrc%5Etfw">February 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
